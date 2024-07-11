@@ -4,11 +4,11 @@
 
 <!-- [Brief Introduction - Remove this afterwards] -->
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I have a passion for solving challenging problems using technology and I enjoy learning new things to improve my skills.
 
 ## Objective
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+I have always tinkered with computers, which has made me interested about cybersecurity. I am very excited to start my journey into this industry, specifically as a Tier 1 Analyst in a Security Operations Center (SOC).
 
 ## Skills
 <!-- [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]] -->
