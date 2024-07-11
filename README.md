@@ -4,11 +4,11 @@
 
 <!-- [Brief Introduction - Remove this afterwards] -->
 
-I have a passion using technology to tackle challenges and I love learning new things to expand my knowledge.
+I have a passion for using technology to tackle challenges and learning new things to expand my knowledge.
 
 ## Objective
 
-I have always tinkered with computers, which eventually started my interest in cybersecurity. I am very excited to start my journey into this industry, specifically as a Tier 1 Analyst in a Security Operations Center (SOC).
+When I was young I used to love tinkering with computers, which eventually sparked my interest in cybersecurity. I'm really excited to begin my journey in this industry, especially aiming for a Tier 1 Analyst role in a Security Operations Center (SOC).
 
 ## Skills
 <!-- [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]] -->
