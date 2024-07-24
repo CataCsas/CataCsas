@@ -15,9 +15,9 @@ When I was young I used to love tinkering with computers, which eventually spark
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Linux CLI (command line interface)            | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
-| Suricata packet sniffer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
-| tcpdump packet analyzer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
+| Linux CLI (command line interface)            | <a href="https://github.com/CataCsas/Linux_CLI">Linux CLI</a>|
+| Suricata packet sniffer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linux CLI</a>|
+| tcpdump packet analyzer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linux CLI</a>|
 
 ### Certifications
 <div>
