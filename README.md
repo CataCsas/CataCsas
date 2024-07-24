@@ -15,13 +15,9 @@ When I was young I used to love tinkering with computers, which eventually spark
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
+| Linux CLI (command line interface)            | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
+| Suricata packet sniffer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
+| tcpdump packet analyzer                       | <a href="https://github.com/CataCsas/Linux_CLI">Linuc CLI</a>|
 
 ### Certifications
 <div>
