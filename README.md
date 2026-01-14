@@ -25,7 +25,7 @@ A collection of Linux command-line exercises and scenarios based on tasks common
 
 ---
 
-### Home Lab
+### **Home Lab** [GitHub Repo](https://github.com/CataCsas/enterprise-homelab)
 
 Home lab environment supporting system and network monitoring, alert analysis, and investigation workflows, featuring:
 
