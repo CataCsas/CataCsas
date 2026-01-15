@@ -3,7 +3,7 @@
 
 ---
 
-Hands-on labs and home lab projects focused on system monitoring, network appliances, and traffic inspection.
+Hands-on projects for system and network monitoring, traffic inspection, and SOC workflows, providing practical experience in alert analysis and operational visibility.
 
 ---
 
@@ -31,3 +31,5 @@ Enterprise-style home lab designed to support SOC workflows such as system and n
 
 - Netgate SG-2100 — pfSense edge firewall
 - Cisco Catalyst WS-C3560CX-8PC-S — L2/L3 switching and inter-VLAN routing
+
+---
