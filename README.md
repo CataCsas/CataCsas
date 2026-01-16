@@ -25,7 +25,7 @@ A collection of Linux command-line exercises and scenarios based on tasks common
 
 ---
 
-### **Home Lab** [GitHub Repo](https://github.com/CataCsas/enterprise-homelab)
+### **Enterprise Homelab** [GitHub Repo](https://github.com/CataCsas/enterprise-homelab)
 
 Enterprise-style home lab designed to support SOC workflows such as system and network monitoring, alert analysis, and investigation. The environment emphasizes network segmentation, security telemetry, and controlled traffic flows using:
 
