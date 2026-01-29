@@ -27,9 +27,11 @@ A collection of Linux command-line exercises and scenarios based on tasks common
 
 ### **Enterprise Homelab** [GitHub Repo](https://github.com/CataCsas/enterprise-homelab)
 
-Enterprise-style home lab designed to support SOC workflows such as system and network monitoring, alert analysis, and investigation. The environment emphasizes network segmentation, security telemetry, and controlled traffic flows using:
+Enterprise-style home lab designed to support SOC workflows such as system and network monitoring, alert analysis, and investigation. The environment emphasizes **network segmentation, security telemetry, and controlled traffic flows** using:
 
-- Netgate SG-2100 — pfSense edge firewall
-- Cisco Catalyst WS-C3560CX-8PC-S — L2/L3 switching and inter-VLAN routing
+- **Netgate SG-2100** — pfSense edge firewall, inter-VLAN routing, and DHCP  
+- **Cisco Catalyst WS-C3560CX-8PC-S** — access-layer switching, VLAN segmentation, and trunking  
+
+> Notes: Inter-VLAN routing and DHCP are handled centrally on pfSense. Cisco provides VLAN access enforcement, trunking, and basic L2 connectivity. This design reflects enterprise-style practices and prioritizes operational visibility for SOC-aligned workflows.
 
 ---
