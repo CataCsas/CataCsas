@@ -40,35 +40,48 @@ As the environment evolves, changes are documented with an emphasis on clarity, 
 ---
 
 <details>
+<summary>Quick Navigation</summary>
+
+- [Architecture](https://github.com/CataCsas/enterprise-homelab/tree/main/architecture)
+- [Cloud Labs](https://github.com/CataCsas/enterprise-homelab/tree/main/cloud)
+- [Network Design](https://github.com/CataCsas/enterprise-homelab/tree/main/network)
+- [Operations](https://github.com/CataCsas/enterprise-homelab/tree/main/operations)
+- [Security & Detection Cases](https://github.com/CataCsas/enterprise-homelab/tree/main/security)
+
+</details>
+
+---
+
+<details>
 <summary>Documentation Overview</summary>
 
 This repository is supported by structured documentation covering network design, security controls, and monitoring scope.
 
 ### Architecture
-- [`design-decisions.md`](./architecture/design-decisions.md)
-- [`future-improvements.md`](./architecture/future-improvements.md)
-- [`topology.md`](./architecture/topology.md)
+- [`design-decisions.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/architecture/design-decisions.md)
+- [`future-improvements.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/architecture/future-improvements.md)
+- [`topology.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/architecture/topology.md)
 
 ### Cloud Identity & Access Management
-- [`01-azure-ad-users.md`](./cloud/01-azure-ad-users.md)
-- [`02-azure-ad-identity-hardening.md`](./cloud/02-azure-ad-identity-hardening.md)
+- [`01-azure-ad-users.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/01-azure-ad-users.md)
+- [`02-azure-ad-identity-hardening.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/02-azure-ad-identity-hardening.md)
 
 ### Network Design
-- [`ip-addressing.md`](./network/ip-addressing.md)
-- [`switching-routing.md`](./network/switching-routing.md)
-- [`vlan-design.md`](./network/vlan-design.md)
-- [`wireless.md`](./network/wireless.md)
+- [`ip-addressing.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/network/ip-addressing.md)
+- [`switching-routing.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/network/switching-routing.md)
+- [`vlan-design.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/network/vlan-design.md)
+- [`wireless.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/network/wireless.md)
 
 ### Operations
-- [`01-jira-service-management.md`](./operations/01-jira-service-management.md)
-- [`change-management.md`](./operations/change-management.md)
-- [`lessons-learned.md`](./operations/lessons-learned.md)
+- [`01-jira-service-management.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/operations/01-jira-service-management.md)
+- [`change-management.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/operations/change-management.md)
+- [`lessons-learned.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/operations/lessons-learned.md)
 
 ### Security
-- [`logging-scope.md`](./security/logging-scope.md)
-- [`siem-overview.md`](./security/siem-overview.md)
-- [`threat-model.md`](./security/threat-model.md)
-- [`detection-cases/`](./security/detection-cases/)
+- [`detection-cases/`](https://github.com/CataCsas/enterprise-homelab/tree/main/security/detection-cases)
+- [`logging-scope.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/security/logging-scope.md)
+- [`siem-overview.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/security/siem-overview.md)
+- [`threat-model.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/security/threat-model.md)
 
 ### Supporting Assets
 - `docs/assets/cloud/` – screenshots used in Cloud exercises
@@ -98,24 +111,24 @@ This repository is supported by structured documentation covering network design
 
 ### Cloud Exercises (Completed)
 
-- **[Lab 01 – Microsoft Entra ID: User Creation and RBAC](./cloud/01-azure-ad-users.md)**
+- **[Lab 01 – Microsoft Entra ID: User Creation and RBAC](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/01-azure-ad-users.md)**
   - Created three users simulating enterprise roles (Admin, Security Operator, Guest/Auditor)  
   - Assigned roles using **least-privilege principle** and validated tenant-level MFA enforcement  
   - Documented rationale, role assignments, and observations for portfolio review  
 
-- **[Lab 02 – Azure AD Identity Hardening](./cloud/02-azure-ad-identity-hardening.md)**
+- **[Lab 02 – Azure AD Identity Hardening](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/02-azure-ad-identity-hardening.md)**
   - Reviewed administrative posture and implemented emergency access planning  
   - Restricted default tenant behaviors including app registration and group creation  
   - Validated changes via audit logs to ensure traceability and governance
 
 ### Detection Case Studies (Completed)
 
-- **[Detection Case 01 – Failed Sudo Escalation](./security/detection-cases/01-sudo-failure.md)**
+- **[Detection Case 01 – Failed Sudo Escalation](https://github.com/CataCsas/enterprise-homelab/blob/main/security/detection-cases/01-sudo-failure.md)**
   - Validated Rule 5503 (authentication failure)  
   - Correlated escalation to Rule 5404 (three failed sudo attempts)  
   - Documented SOC triage workflow
 
-- **[Detection Case 02 – Scripted Persistence Simulation](./security/detection-cases/02-scripted-persistence.md)**
+- **[Detection Case 02 – Scripted Persistence Simulation](https://github.com/CataCsas/enterprise-homelab/blob/main/security/detection-cases/02-scripted-persistence.md)**
   - Simulated account creation and privilege escalation  
   - Validated File Integrity Monitoring (FIM) for `/etc/passwd`, `/etc/group`  
   - Detected cron-based persistence creation  
@@ -128,7 +141,7 @@ This repository is supported by structured documentation covering network design
 - Change management and lessons learned updated  
 - **Jira Service Management lab exercise documented**  
   - Simulated ITSM workflow, incident triage, service requests, and resolution  
-  - See [`01-jira-service-management.md`](./operations/01-jira-service-management.md) for full details and screenshots
+  - See [`01-jira-service-management.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/operations/01-jira-service-management.md) for full details and screenshots
 
 </details>
 
