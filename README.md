@@ -44,6 +44,7 @@ As the environment evolves, changes are documented with an emphasis on clarity, 
 
 - [Architecture](https://github.com/CataCsas/enterprise-homelab/tree/main/architecture)
 - [Cloud Labs](https://github.com/CataCsas/enterprise-homelab/tree/main/cloud)
+- [Docs & Assets](https://github.com/CataCsas/enterprise-homelab/tree/main/docs/assets)
 - [Network Design](https://github.com/CataCsas/enterprise-homelab/tree/main/network)
 - [Operations](https://github.com/CataCsas/enterprise-homelab/tree/main/operations)
 - [Security & Detection Cases](https://github.com/CataCsas/enterprise-homelab/tree/main/security)
