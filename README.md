@@ -124,7 +124,7 @@ This repository is supported by structured documentation covering network design
   - Validated changes via audit logs to ensure traceability and governance
 
 - **[Lab 03 – Microsoft Entra ID: Account Lifecycle Simulation](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/03-azure-ad-account-lifecycle.md)**
-  - Simulated audit-driven access request and approval using ITSM workflow  
+  - Submitted and approved audit-driven access request via ITSM workflow  
   - Corrected RBAC inconsistencies, provisioned new auditor account, and aligned access under a group-based model  
   - Managed operational incident (password reset) and demonstrated secure credential exchange  
   - Performed access cleanup and account deprovisioning to restore baseline state  
