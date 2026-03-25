@@ -66,6 +66,7 @@ This repository is supported by structured documentation covering network design
 ### Cloud Identity & Access Management
 - [`01-azure-ad-users.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/01-azure-ad-users.md)
 - [`02-azure-ad-identity-hardening.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/02-azure-ad-identity-hardening.md)
+- [`03-azure-ad-account-lifecycle.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/03-azure-ad-account-lifecycle.md)
 
 ### Network Design
 - [`ip-addressing.md`](https://github.com/CataCsas/enterprise-homelab/blob/main/network/ip-addressing.md)
@@ -117,10 +118,16 @@ This repository is supported by structured documentation covering network design
   - Assigned roles using **least-privilege principle** and validated tenant-level MFA enforcement  
   - Documented rationale, role assignments, and observations for portfolio review  
 
-- **[Lab 02 – Azure AD Identity Hardening](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/02-azure-ad-identity-hardening.md)**
+- **[Lab 02 – Microsoft Entra ID: Identity Hardening](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/02-azure-ad-identity-hardening.md)**
   - Reviewed administrative posture and implemented emergency access planning  
   - Restricted default tenant behaviors including app registration and group creation  
   - Validated changes via audit logs to ensure traceability and governance
+
+- **[Lab 03 – Microsoft Entra ID: Account Lifecycle Simulation](https://github.com/CataCsas/enterprise-homelab/blob/main/cloud/03-azure-ad-account-lifecycle.md)**
+  - Simulated audit-driven access request and approval using ITSM workflow  
+  - Corrected RBAC inconsistencies, provisioned new auditor account, and aligned access under a group-based model  
+  - Managed operational incident (password reset) and demonstrated secure credential exchange  
+  - Performed access cleanup and account deprovisioning to restore baseline state  
 
 ### Detection Case Studies (Completed)
 
